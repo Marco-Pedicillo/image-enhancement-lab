@@ -61,8 +61,7 @@ Il workflow AI invia una copia ridimensionata della foto a Google: occorrono imm
 
 ## Documentazione
 
-[Perimetro](docs/product_scope.md) · [Architettura](docs/architecture.md) · [Esperimenti](docs/experiments.md)
-
+[Perimetro](docs/product_scope.md) · [Architettura](docs/architecture.md) · [Esperimenti](docs/experiments.md) · [Avvio del prototipo](docs/setup.md)
 ### Anteprima del prototipo
 
 ![Confronto tra i workflow](assets/screen3.png)
