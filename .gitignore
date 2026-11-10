@@ -1,0 +1,37 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Temporary files
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+.ipynb_checkpoints/
+
+# Include only the six evaluation photos
+data/*
+!data/samples/
+data/samples/*
+!data/samples/prova[1-6].jpg
+
+# Temporary experiment exports
+results/*.tmp
+
+# Development scripts
+test_gemini.py
+test_vision.py
